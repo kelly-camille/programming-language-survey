@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Programming Language Survey</title>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <h1>What Programming Language Should You Learn?</h1>
+  <h2>C#, Python, or JavaScript?</h2>
+  <form id="survey">
+    <label for="input1"><strong>Which language sounds like more fun?</strong></label>
+    <br>
+    <br>
+    <input id="input1" type="text">
+    <br><br>
+
+    <p><strong>Which color do you like best?</strong></p>
+    <label for="answer2a">Green</label>
+    <input type="radio" name="question#2" value="answer2a" checked>
+    <br>
+    <label for="answer2b">Blue</label>
+    <input type="radio" name="question#2" value="answer2b">
+    <br>
+    <label for="answer2c">Pink</label>
+    <input type="radio" name="question#2" value="answer2c">
+    </br>
+    <br><br>
+    <p><strong>What is your favorite animal?</strong></p>
+    <label for="answer3a">cow</label>
+    <input type="radio" name="question#3" value="answer3a" checked>
+    <br>
+    <label for="answer3b">cat</label>
+    <input type="radio" name="question#3" value="answer3b">
+    <br>
+    <label for="answer3c">dog</label>
+    <input type="radio" name="question#3" value="answer3c">
+    <br><br>
+
+    <label for="input4"><strong>Country or City?</strong></label>
+    <br>
+    <br>
+    <input id="input4" type="text">
+    <br><br>
+
+    <label for="input5"><strong>Savory or sweet?</strong></label>
+    <br>
+    <br>
+    <input id="input5" type="text">
+    <br><br>
+    <button type="submit" class="btn">Go!</button>
+  <h2>Results</h2>
+  </form>
+  
+  <div id="c#" class="hidden">
+  <h1>You should learn C#!</h1>
+  </div>
+
+  <div id="python" class="hidden">
+    <h1>You should learn <span class="language">Python!</span></h1>
+  </div>
+
+  <div id="javascript" class="hidden">
+    <h1>You should learn JavaScript!</h1>
+  </div>
+</body>
+</html>
