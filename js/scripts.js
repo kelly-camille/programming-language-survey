@@ -23,8 +23,10 @@ window.onload = function() {
   } else if (answer1 === "javascript") {
     javascript.removeAttribute("class")
   } 
+
   }
   }
+  
   
  
   
