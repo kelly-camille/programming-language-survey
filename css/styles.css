@@ -12,3 +12,9 @@ input{
 .hidden {
   display: none;
 }
+
+.btn {
+  size: large;
+  background-color:#0a0a23;
+  color: aquamarine;
+}

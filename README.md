@@ -2,7 +2,7 @@
 
 #### Kelly Bruce
 
-#### This application askes five questions to dermine which programming language is best for them 
+#### This application asks five questions to dermine which programming language is best for them 
 
 ## Technologies Used
 
@@ -23,7 +23,7 @@ This application is designed to output the programming language that the user pr
 
 
 ## Known Bugs
-Answer 2-5 variables are defined but never read. 
+"answer2", "answer3", "answer4", "answer5" variables are defined but never read. 
 
 
 ## License
