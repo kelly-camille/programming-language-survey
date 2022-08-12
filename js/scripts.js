@@ -1,33 +1,26 @@
 window.onload = function() {
   const form = document.querySelector("form");
   form.onsubmit = function(event) {
-  let c = document.getElementById("C#");
+  event.preventDefault();
+  let c = document.getElementById("c");
   c.setAttribute("class", "hidden");
-  let python = document.getElementById("Python")
+  let python = document.getElementById("Python");
   python.setAttribute("class", "hidden");
-  let javaScript = document.getElementByID("JavaScript");
-  javaScript.setAttribute("class", "hidden");
+
   
   // getting user input value
-  const answer1 = document.getElementById("input1").value;
-  const answer2 = ducement.getElementByID("input2").value;
-  const answer3 = document.getElementById("input3").value;
-  const answer4 = document.getElementById("input4").value;
-  const answer5 = document.getElementById("input5").value;
+  const answer1 = document.getElementById("input1").value.toLowerCase();
 
 
 
 
 
-
-
-
-  if (answer1 === "C") {
+  if (answer1 === "c") {
     c.removeAttribute("class");
-} else {
-  (answer === "x")
-  c.removeAttribute("class");
+  } else if  (answer1 === "Python") {
+    python.removeAttribute("class");
+  } else if (answer1 === "Javascript") {
+    javaScript.removeAttribute("class")
+  }
   }
 }
-}
-
