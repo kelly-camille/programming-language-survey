@@ -11,9 +11,9 @@ window.onload = function() {
 
     const answer1 = document.getElementById("input1").value.toLowerCase();
     const answer2 = document.querySelector("input[name='question#2']:checked").value;
-    const answer3 = document.querySelector("input[name='question#3']").value;
-    const answer4 = document.getElementById("input4").value.toLowerCase();
-    const answer5 = document.getElementById("input5").value.toLowerCase();
+    const answer3 = document.querySelector("input[name='question#3']:checked").value;
+    const answer4 = document.querySelector("input[name='question#4']:checked").value
+    const answer5 = document.querySelector("input[name='question#5']:checked").value
 
     if (answer1 === "c#") {
       c.removeAttribute("class");
@@ -22,5 +22,6 @@ window.onload = function() {
     } else if (answer1 === "javascript") {
       javascript.removeAttribute("class")
     }
+
   };
 };
