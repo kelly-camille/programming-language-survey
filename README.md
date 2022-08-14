@@ -12,7 +12,7 @@
 
 ## Description
 
-This application is designed to output the programming language that the user prefers
+This application is designed to output a programming language selection based on user input
 
 ## Setup/Installation Requirements
 
@@ -21,9 +21,6 @@ This application is designed to output the programming language that the user pr
 * cd Programming-Language-Survey
 * code .
 * To view: https://kelly-camille.github.io/programming-language-survey/
-
-## Known Bugs
-"answer2", "answer3", "answer4", "answer5" variables are defined but never read. 
 
 
 ## License
