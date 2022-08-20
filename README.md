@@ -21,6 +21,8 @@ This application is designed to output a programming language selection based on
 * open index.html in browser
 * To view: https://kelly-camille.github.io/programming-language-survey/
 
+## Known Bugs
+* No known bugs at this time
 
 ## License
 
